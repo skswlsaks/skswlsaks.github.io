@@ -103,6 +103,14 @@ function cmd_faq() {
     print_ln(stdout, '');
 }
 
+function cmd_resume() {
+    print_out(stdout, 'My Resume: ', 'yellow');
+    print_out(stdout, '\nResume: ', 'red');
+    print_out(stdout, '\t');
+    print_url(stdout, "https://https://skswlsaks.github.io/Resume-Jin%20Man%20Park.pdf", 'white');
+    print_ln(stdout, '');
+}
+
 function cmd_help(shell) {
     print_ln(stdout, 'Jmp shell (v1.31) all commands:', 'red');
     for (let i = 0; i < shell.bin.length; i++) {
