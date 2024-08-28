@@ -102,6 +102,7 @@ function cmd_faq() {
 
     print_ln(stdout, '');
 }
+
 function cmd_help(shell) {
     print_ln(stdout, 'Jmp shell (v1.31) all commands:', 'red');
     for (let i = 0; i < shell.bin.length; i++) {
@@ -190,6 +191,7 @@ window.onload = () => {
     jmpsh.init(new Command('whoami', cmd_whoami, 'Display my personal profile.'));
     jmpsh.init(new Command('linkedi', cmd_linkedin, 'Display my LinkedIn profile.'));
     jmpsh.init(new Command('faq', cmd_faq, 'Frquently asked questions about me.'));
+    // jmpsh.init(new Command('resume', cmd_resume, 'Find out my latest Resume.'));
     jmpsh.init(new Command('help', cmd_help, 'Display all commands supported.'));
     document.getElementById('terminal').onclick = (e) => {
         stdin.focus();
