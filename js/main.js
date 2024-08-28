@@ -107,7 +107,7 @@ function cmd_resume() {
     print_out(stdout, 'My Resume: ', 'yellow');
     print_out(stdout, '\nResume: ', 'red');
     print_out(stdout, '\t');
-    print_url(stdout, "https://https://skswlsaks.github.io/Resume-Jin%20Man%20Park.pdf", 'white');
+    print_url(stdout, "https://skswlsaks.github.io/Resume-Jin%20Man%20Park.pdf", 'white');
     print_ln(stdout, '');
 }
 
