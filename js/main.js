@@ -199,7 +199,7 @@ window.onload = () => {
     jmpsh.init(new Command('whoami', cmd_whoami, 'Display my personal profile.'));
     jmpsh.init(new Command('linkedi', cmd_linkedin, 'Display my LinkedIn profile.'));
     jmpsh.init(new Command('faq', cmd_faq, 'Frquently asked questions about me.'));
-    // jmpsh.init(new Command('resume', cmd_resume, 'Find out my latest Resume.'));
+    jmpsh.init(new Command('resume', cmd_resume, 'Find out my latest Resume.'));
     jmpsh.init(new Command('help', cmd_help, 'Display all commands supported.'));
     document.getElementById('terminal').onclick = (e) => {
         stdin.focus();
