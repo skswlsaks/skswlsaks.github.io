@@ -56,7 +56,7 @@ function print_url(stream, href, fg = fg_color, bg = bg_color) {
 function cmd_whoami() {
     print_ln(stdout, "Name: ", 'white');
     print_out(stdout, 'Jin Man, Park. Call me ');
-    print_ln(stdout, 'Jin', 'red');
+    print_ln(stdout, 'Jin', 'yellow');
     print_ln(stdout, '');
     print_ln(stdout, 'About Me:\t', 'white');
     print_out(stdout, "I've been involved in two startups—one that I started myself and ", 'white');
