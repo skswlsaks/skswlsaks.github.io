@@ -60,10 +60,9 @@ function cmd_whoami() {
     print_ln(stdout, '');
     print_ln(stdout, 'About Me:\t', 'white');
     print_out(stdout, "I've been involved in two startups—one that I started myself and ", 'white');
-    print_out(stdout, "another I started myself and another where I was one of the first", 'white');
-    print_out(stdout, "members, working as a software developer. I've got experience", 'white');
-    print_out(stdout, "in a few different areas like finance, autonomous driving, and", 'white');
-    print_out(stdout, "remote education. I also have a range of technical skills,", 'white');
+    print_out(stdout, "another where I was one of the first members, working as a software developer.", 'white');
+    print_out(stdout, "I've got experience in a few different areas like finance, autonomous driving,", 'white');
+    print_out(stdout, "and remote education. I also have a range of technical skills,", 'white');
     print_out(stdout, "from optimizing data pipelines and designing scalable system", 'white');
     print_out(stdout, "architectures to handling DevOps (on-prem and in the cloud),", 'white');
     print_ln(stdout, "working with LLMs, and doing frontend development.", 'white');
